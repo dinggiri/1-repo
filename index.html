@@ -16,7 +16,7 @@
     <section id="contents"> <!-- section은 html5에서 특정 부분을 이야기함. 예전엔 <div>로만 -->
         <div class="wrapper">
             <div class="title">
-                <img src="img/clock.png" alt="background_logo" class="clock_img"> <!-- 홈페이지 뒤에 있는 시계 -->
+                <img class="clock_img" src="img/clock.png" alt="" > <!-- 홈페이지 뒤에 있는 시계 -->
                 <div class="title_img"> <!-- 시계 앞의 "1만 시간의 법칙" 문구 -->
                     <img src="img/title.png" alt="1만 시간의 법칙">
                 </div>
@@ -25,7 +25,7 @@
                 <div class="intro_saying">"연습은 어제의 당신보다 당신을 더 낫게 만든다."</div>
                 <div class="explain">
                     <div class="quotes">
-                        <img src="img/quotes.png" alt="따옴표">
+                        <img src="img/quotes.png" alt="">
                     </div>
                     <p>
                         <span>1만 시간의 법칙</span>은<br>어떤 분야의 전문가가 되기
@@ -41,17 +41,15 @@
                 </div>
                 <div class="time">
                     <p>그래서 매일 하루에</p>
-                    <div>
-                        <input type="text" id="field_value" placeholder="예)5">
-                        <p>시간씩 훈련할 것이다.</p>
-                    </div>
+                        <input type="text" id="time_value" placeholder="예)5">
+                    <p>시간씩 훈련할 것이다.</p>
                 </div>
             </div>
             <div class="start">
                 <div class="btn_wrap">
                     <button class="start_btn">나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
                     <div class = "click_img">
-                        <img src="img/click.png" alt="클릭">
+                        <img src="img/click.png" alt="">
                     </div>
                 </div>
             </div>
@@ -88,14 +86,14 @@
                 <h3>당신의 꿈을 응원합니다!</h3>
             </div>
             <div class="licat_img">
-                <img src="img/licat.png" alt="라이캣 응원">
+                <img src="img/licat.png" alt="응원하는 라이캣">
             </div>
             <div class="btn">
                 <button class="close_btn">종료하고 진짜 훈련하러 가기 GO!GO!</button>
                 <p>(그냥 닫기 버튼입니다.)</p>
             </div>
         </div> </section>
-    <footer id="copyright"><!-- 서비스나 이미지, 저작권을 넣는 곳-->
+    <section id="copyright"><!-- 서비스나 이미지, 저작권을 넣는 곳-->
         <div class="img/logo.png">
             <img src="img/logo.png" alt="dinggiri">
         </div>
@@ -103,7 +101,7 @@
             본 서비스 내 이미지 및 콘텐츠는 dinggiri<br>
             수정 및 재배포 금지
         </p>
-    </footer> 
+    </section> 
     <script type="text/javascript" src="js/10000hours.js"></script>
 </body>
 </html>
